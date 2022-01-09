@@ -15,4 +15,6 @@ spec:
       - backend:
           serviceName: devops-toolkit
           servicePort: 80
+        path: /devops-toolkit
+        pathType: Prefix
     host: devopstoolkitseries.com
