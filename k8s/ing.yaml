@@ -13,8 +13,10 @@ spec:
   - http:
       paths:
       - backend:
-          serviceName: devops-toolkit
-          servicePort: 80
+          service:
+            name: devops-toolkit
+            port: 
+             number: 80
         path: /devops-toolkit
         pathType: Prefix
     host: devopstoolkitseries.com
